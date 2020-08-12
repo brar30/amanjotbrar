@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--Name: Amanjot Kaur Brar
+  Student Number:991541819 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amanjot Kaur Brar</title>
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <script src="js/output.js"></script>
+</head>
+<body>
+<header align="center">Assignment-1 </br>
+    Amanjot Brar</br>
+    </header>
+
+<section class="students">
+    <fieldset id="s1">
+        <legend>Customer Detail</legend>
+        <div class="btn-group">
+
+            <input type="image" id="image1" alt="SAVE" width="280px" height="280px"
+                   align="right" hspace="180"
+                   src="images/aman.jpg" >
+
+        </div>
+
+        <p class="group"><label for="fname">Customer Name</label>
+            <input type="text" name="fname" id="fname" value=" "></p>
+        <p class="group"><label for="roomwth" >Room Width </label>
+            <input type="text" name="roomwth" id="roomwth" value=" "></p>
+        <p class="group"><label for="roomlth" >Room Length </label>
+            <input type="text" name="roomlth" id="roomlth" value=" "></p>
+        <h4>Select the paint option</h4>
+        <p class="group"><label for="rpaint">Choose Color </label>
+            <input type="color" name="rpaint" id="rpaint" value="#e66465">
+        </p>
+        <p class="group"><label >Paint Type: </label>
+            <select id="roompaint">
+                <option value="1">Paint Types</option>
+                <option value="standard"> Standard (24.99/can)</option>
+                <option value="premium">Premium (39.99/can)</option>
+            </select>
+        </p>
+        <a href ="output.html">
+            <button id="receipt" onclick="saveData()">PRINT RECEIPT</button>
+        </a>
+
+    </fieldset></section>
+</body>
+<footer>
+    brar305<br>
+    991541819
+</footer>
+</html>
